@@ -1,6 +1,8 @@
 name: Golang Docker Build
 
 on:
+  release:
+    types: [published]
   push:
     branches:
       - "*"
