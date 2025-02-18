@@ -24,7 +24,7 @@ jobs:
         with:
           registry: quay.io
           username: cancetinsoy+sebzelikokorec
-          password: ${{ secrets.ISLAK_HAMBURGER }}
+          password: ${{ secrets.secret_code }}
 
       - name: Extract metadata (tags, labels) for Docker
         uses: docker/metadata-action@v4
